@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A47CEFC51AE6C36800CF6A87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEFC41AE6C36800CF6A87 /* AppDelegate.swift */; };
+		A47CEFC81AE6C36800CF6A87 /* BuBusTrackerIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A47CEFC61AE6C36800CF6A87 /* BuBusTrackerIOS.xcdatamodeld */; };
+		A47CEFCA1AE6C36800CF6A87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEFC91AE6C36800CF6A87 /* ViewController.swift */; };
+		A47CEFCD1AE6C36800CF6A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47CEFCB1AE6C36800CF6A87 /* Main.storyboard */; };
+		A47CEFCF1AE6C36800CF6A87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47CEFCE1AE6C36800CF6A87 /* Images.xcassets */; };
+		A47CEFD21AE6C36800CF6A87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A47CEFD01AE6C36800CF6A87 /* LaunchScreen.xib */; };
+		A47CEFDE1AE6C36800CF6A87 /* BuBusTrackerIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47CEFDD1AE6C36800CF6A87 /* BuBusTrackerIOSTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A47CEFD81AE6C36800CF6A87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A47CEFB71AE6C36800CF6A87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A47CEFBE1AE6C36800CF6A87;
+			remoteInfo = BuBusTrackerIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A47CEFBF1AE6C36800CF6A87 /* BuBusTrackerIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuBusTrackerIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47CEFC31AE6C36800CF6A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47CEFC41AE6C36800CF6A87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A47CEFC71AE6C36800CF6A87 /* BuBusTrackerIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BuBusTrackerIOS.xcdatamodel; sourceTree = "<group>"; };
+		A47CEFC91AE6C36800CF6A87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A47CEFCC1AE6C36800CF6A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A47CEFCE1AE6C36800CF6A87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A47CEFD11AE6C36800CF6A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A47CEFD71AE6C36800CF6A87 /* BuBusTrackerIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuBusTrackerIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47CEFDC1AE6C36800CF6A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47CEFDD1AE6C36800CF6A87 /* BuBusTrackerIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuBusTrackerIOSTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A47CEFBC1AE6C36800CF6A87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47CEFD41AE6C36800CF6A87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A47CEFB61AE6C36800CF6A87 = {
+			isa = PBXGroup;
+			children = (
+				A47CEFC11AE6C36800CF6A87 /* BuBusTrackerIOS */,
+				A47CEFDA1AE6C36800CF6A87 /* BuBusTrackerIOSTests */,
+				A47CEFC01AE6C36800CF6A87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A47CEFC01AE6C36800CF6A87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEFBF1AE6C36800CF6A87 /* BuBusTrackerIOS.app */,
+				A47CEFD71AE6C36800CF6A87 /* BuBusTrackerIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A47CEFC11AE6C36800CF6A87 /* BuBusTrackerIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEFC41AE6C36800CF6A87 /* AppDelegate.swift */,
+				A47CEFC91AE6C36800CF6A87 /* ViewController.swift */,
+				A47CEFCB1AE6C36800CF6A87 /* Main.storyboard */,
+				A47CEFCE1AE6C36800CF6A87 /* Images.xcassets */,
+				A47CEFD01AE6C36800CF6A87 /* LaunchScreen.xib */,
+				A47CEFC61AE6C36800CF6A87 /* BuBusTrackerIOS.xcdatamodeld */,
+				A47CEFC21AE6C36800CF6A87 /* Supporting Files */,
+			);
+			path = BuBusTrackerIOS;
+			sourceTree = "<group>";
+		};
+		A47CEFC21AE6C36800CF6A87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEFC31AE6C36800CF6A87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A47CEFDA1AE6C36800CF6A87 /* BuBusTrackerIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEFDD1AE6C36800CF6A87 /* BuBusTrackerIOSTests.swift */,
+				A47CEFDB1AE6C36800CF6A87 /* Supporting Files */,
+			);
+			path = BuBusTrackerIOSTests;
+			sourceTree = "<group>";
+		};
+		A47CEFDB1AE6C36800CF6A87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A47CEFDC1AE6C36800CF6A87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A47CEFBE1AE6C36800CF6A87 /* BuBusTrackerIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47CEFE11AE6C36800CF6A87 /* Build configuration list for PBXNativeTarget "BuBusTrackerIOS" */;
+			buildPhases = (
+				A47CEFBB1AE6C36800CF6A87 /* Sources */,
+				A47CEFBC1AE6C36800CF6A87 /* Frameworks */,
+				A47CEFBD1AE6C36800CF6A87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuBusTrackerIOS;
+			productName = BuBusTrackerIOS;
+			productReference = A47CEFBF1AE6C36800CF6A87 /* BuBusTrackerIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A47CEFD61AE6C36800CF6A87 /* BuBusTrackerIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A47CEFE41AE6C36800CF6A87 /* Build configuration list for PBXNativeTarget "BuBusTrackerIOSTests" */;
+			buildPhases = (
+				A47CEFD31AE6C36800CF6A87 /* Sources */,
+				A47CEFD41AE6C36800CF6A87 /* Frameworks */,
+				A47CEFD51AE6C36800CF6A87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47CEFD91AE6C36800CF6A87 /* PBXTargetDependency */,
+			);
+			name = BuBusTrackerIOSTests;
+			productName = BuBusTrackerIOSTests;
+			productReference = A47CEFD71AE6C36800CF6A87 /* BuBusTrackerIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A47CEFB71AE6C36800CF6A87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Steve Hwang";
+				TargetAttributes = {
+					A47CEFBE1AE6C36800CF6A87 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A47CEFD61AE6C36800CF6A87 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A47CEFBE1AE6C36800CF6A87;
+					};
+				};
+			};
+			buildConfigurationList = A47CEFBA1AE6C36800CF6A87 /* Build configuration list for PBXProject "BuBusTrackerIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A47CEFB61AE6C36800CF6A87;
+			productRefGroup = A47CEFC01AE6C36800CF6A87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A47CEFBE1AE6C36800CF6A87 /* BuBusTrackerIOS */,
+				A47CEFD61AE6C36800CF6A87 /* BuBusTrackerIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A47CEFBD1AE6C36800CF6A87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47CEFCD1AE6C36800CF6A87 /* Main.storyboard in Resources */,
+				A47CEFD21AE6C36800CF6A87 /* LaunchScreen.xib in Resources */,
+				A47CEFCF1AE6C36800CF6A87 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47CEFD51AE6C36800CF6A87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A47CEFBB1AE6C36800CF6A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47CEFCA1AE6C36800CF6A87 /* ViewController.swift in Sources */,
+				A47CEFC81AE6C36800CF6A87 /* BuBusTrackerIOS.xcdatamodeld in Sources */,
+				A47CEFC51AE6C36800CF6A87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A47CEFD31AE6C36800CF6A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47CEFDE1AE6C36800CF6A87 /* BuBusTrackerIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A47CEFD91AE6C36800CF6A87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A47CEFBE1AE6C36800CF6A87 /* BuBusTrackerIOS */;
+			targetProxy = A47CEFD81AE6C36800CF6A87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A47CEFCB1AE6C36800CF6A87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47CEFCC1AE6C36800CF6A87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A47CEFD01AE6C36800CF6A87 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A47CEFD11AE6C36800CF6A87 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A47CEFDF1AE6C36800CF6A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A47CEFE01AE6C36800CF6A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A47CEFE21AE6C36800CF6A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuBusTrackerIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A47CEFE31AE6C36800CF6A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuBusTrackerIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A47CEFE51AE6C36800CF6A87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BuBusTrackerIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuBusTrackerIOS.app/BuBusTrackerIOS";
+			};
+			name = Debug;
+		};
+		A47CEFE61AE6C36800CF6A87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BuBusTrackerIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuBusTrackerIOS.app/BuBusTrackerIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A47CEFBA1AE6C36800CF6A87 /* Build configuration list for PBXProject "BuBusTrackerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47CEFDF1AE6C36800CF6A87 /* Debug */,
+				A47CEFE01AE6C36800CF6A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A47CEFE11AE6C36800CF6A87 /* Build configuration list for PBXNativeTarget "BuBusTrackerIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47CEFE21AE6C36800CF6A87 /* Debug */,
+				A47CEFE31AE6C36800CF6A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A47CEFE41AE6C36800CF6A87 /* Build configuration list for PBXNativeTarget "BuBusTrackerIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A47CEFE51AE6C36800CF6A87 /* Debug */,
+				A47CEFE61AE6C36800CF6A87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A47CEFC61AE6C36800CF6A87 /* BuBusTrackerIOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A47CEFC71AE6C36800CF6A87 /* BuBusTrackerIOS.xcdatamodel */,
+			);
+			currentVersion = A47CEFC71AE6C36800CF6A87 /* BuBusTrackerIOS.xcdatamodel */;
+			path = BuBusTrackerIOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A47CEFB71AE6C36800CF6A87 /* Project object */;
+}
