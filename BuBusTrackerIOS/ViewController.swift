@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     //USEFUL http://jamesonquave.com/blog/making-a-post-request-in-swift/
     func getBusData() {
         // 1
